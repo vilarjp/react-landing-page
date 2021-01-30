@@ -11,8 +11,8 @@ const onClick = () =>
 
 const PricingBox = ({
   totalPrice,
-  numberInstallments,
   priceInstallment,
+  numberInstallments,
   benefits,
   button
 }: PricingBoxProps) => (

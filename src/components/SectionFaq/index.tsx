@@ -26,7 +26,7 @@ const SectionFaq = ({ title, questions }: SectionFaqProps) => (
           <p>
             Sem problemas! Você pode acessar qualquer uma das{' '}
             <a
-              href="https://willianjusten.com.br/about"
+              href="https://willianjusten.com/about"
               target="_blank"
               rel="noreferrer"
             >
@@ -34,7 +34,7 @@ const SectionFaq = ({ title, questions }: SectionFaqProps) => (
             </a>{' '}
             ou entrar no{' '}
             <a
-              href="https://willianjusten-cursos.slack.com/join/shared_invite/zt-g20h37hj-GnSb_y7PXCRjS92N9T8LCQ#/"
+              href="https://slack-willianjusten.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >

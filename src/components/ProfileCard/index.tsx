@@ -9,7 +9,7 @@ import { getImageUrl } from 'utils/getImageUrl'
 
 const icons = {
   Twitter: <FaTwitter />,
-  GitHub: <GrGithub />,
+  Github: <GrGithub />,
   Dribbble: <FaDribbble />
 }
 
@@ -21,16 +21,12 @@ const ProfileCard: React.FC<Author> = ({
   description
 }) => (
   <S.Card key={name}>
-    <S.Image
-      src={getImageUrl(photo.url)}
-      alt={photo.alternativeText}
-      loading="lazy"
-    />
+    <S.Image src={getImageUrl(photo.url)} alt={photo.alternativeText} />
     <S.Name>{name}</S.Name>
     <S.Role>{role}</S.Role>
     <S.SocialLinks>
       {socialLinks.map((item) => (
-        <S.Link key={item.url}>
+        <S.Link key={item.name}>
           <a href={item.url} title={item.name}>
             {icons[item.name]}
           </a>

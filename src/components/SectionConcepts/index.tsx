@@ -11,8 +11,8 @@ const SectionConcepts = ({ title, concepts }: SectionConceptsProps) => (
     <S.Box>
       <Heading lineBottom>{title}</Heading>
       <S.List>
-        {concepts.map((concept) => (
-          <S.Item key={concept.title}>{concept.title}</S.Item>
+        {concepts.map((item) => (
+          <S.Item key={item.title}>{item.title}</S.Item>
         ))}
       </S.List>
     </S.Box>
