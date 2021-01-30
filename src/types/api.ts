@@ -68,7 +68,7 @@ export type PricingBoxProps = {
 }
 
 export type SocialLink = {
-  name: string
+  title: string
   url: string
 }
 

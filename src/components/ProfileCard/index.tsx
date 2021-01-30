@@ -26,9 +26,9 @@ const ProfileCard: React.FC<Author> = ({
     <S.Role>{role}</S.Role>
     <S.SocialLinks>
       {socialLinks.map((item) => (
-        <S.Link key={item.name}>
-          <a href={item.url} title={item.name}>
-            {icons[item.name]}
+        <S.Link key={item.title}>
+          <a href={item.url} title={item.title}>
+            {icons[item.title]}
           </a>
         </S.Link>
       ))}
